@@ -2,7 +2,7 @@ version: '3.3'
 # maintainer: "SEVENDI ELDRIGE RIFKI POLUAN <sevendipoluan@gmail.com>"
 
 services:   
-  mqtt-broker-face-recognition:
+  mqtt-broker:
     image: eclipse-mosquitto:2.0.15 
     container_name: mqtt-broker
     restart: always 
